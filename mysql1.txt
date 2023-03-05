@@ -1,0 +1,177 @@
+Enter password: ***
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 9
+Server version: 5.1.73-community MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create database Student3;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use Student3;
+Database changed
+mysql> create table tblParents(p_id int ,p_name varchar(20),city varchar(20), age int , annual_income int , occupation varchar(20), email_id varchar(50));
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (1,'Harsh Singh','Mumbai',42,1200000,'Software Engineer','singhharsh1203@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (2,'Ashutosh Singh','Pune',47,1000000,'Doctor','singhashutosh03@gmail.com');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,emai' at line 1
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (2,'Ashutosh Singh','Pune',47,1000000,'Doctor','singhashutosh03@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql>  insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (3,' Sabi Ahsan','Lucknow',50,4000000,'Businessman','sayyedsabi15@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (4,' Suyash Mishra','Bangalore',40,14000000,'Mechanical Engineer','mishrasuyash01@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (5,' Prathamesh Yadav','Varansi',45,11000000,'Software Developer','py02@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql>  insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (6,' Akhilesh Yadav','Bhopal',45,600000,'Teacher','akhily34@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (7,'Shivam Jaiswar','Jaipur',38,800000,'Doctor','shivamj69@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (8,'Priyanshu Singh','Mumbai',36,1550000,'Manager','singhpriyanshu05@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (9,'Aishwarya Yadav','Mumbai',36,1050000,'Lawyer','yadavaishwarya44@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (10,'Sunil Yadav','Panjim',30,1400000,'Trainer','yadavsunil04@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (11,'Abhishek Chauhan','Ahmednagar',39,1150000,'Accountant','abhichauhan24@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (12,'Manish Chauhan','Bangalore',41,1300000,'Software Engineer','chauhan11manish@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (13,'Rupesh Waghela','Gandhinagar',41,2000000,'Businessman','waghelarupesh08@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (14,'Mohit Yadav','Raipur',41,400000,'Plumber','mohity64@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (15,'Rohan Singh','Amravati',40,600000,'Teacher','singhrohan44@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (16,'Binod','Patna',42,300000,'Driver','binod31@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (17,'Kamlesh ','Bhopal',38,350000,'Clerk','kamlesh48@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (18,'Rohit Shetty ','Chennai',35,2550000,'Photographer','shettyrohit12@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (19,'Laxman Singh ','Ahmednagar',37,1100000,'Civil Engineer','singhlaxman74@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into tblParents(p_id,p_name,city,age,annual_income,occupation,email_id) values (20,'Arvind Kejriwal ','Delhi',38,380000,'driver','kjarvind11@gmail.com');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> Select * from tblParents;
++------+-------------------+-------------+------+---------------+---------------------+----------------------------+
+| p_id | p_name            | city        | age  | annual_income | occupation          | email_id                   |
++------+-------------------+-------------+------+---------------+---------------------+----------------------------+
+|    1 | Harsh Singh       | Mumbai      |   42 |       1200000 | Software Engineer   | singhharsh1203@gmail.com   |
+|    2 | Ashutosh Singh    | Pune        |   47 |       1000000 | Doctor              | singhashutosh03@gmail.com  |
+|    3 |  Sabi Ahsan       | Lucknow     |   50 |       4000000 | Businessman         | sayyedsabi15@gmail.com     |
+|    4 |  Suyash Mishra    | Bangalore   |   40 |      14000000 | Mechanical Engineer | mishrasuyash01@gmail.com   |
+|    5 |  Prathamesh Yadav | Varansi     |   45 |      11000000 | Software Developer  | py02@gmail.com             |
+|    6 |  Akhilesh Yadav   | Bhopal      |   45 |        600000 | Teacher             | akhily34@gmail.com         |
+|    7 | Shivam Jaiswar    | Jaipur      |   38 |        800000 | Doctor              | shivamj69@gmail.com        |
+|    8 | Priyanshu Singh   | Mumbai      |   36 |       1550000 | Manager             | singhpriyanshu05@gmail.com |
+|    9 | Aishwarya Yadav   | Mumbai      |   36 |       1050000 | Lawyer              | yadavaishwarya44@gmail.com |
+|   10 | Sunil Yadav       | Panjim      |   30 |       1400000 | Trainer             | yadavsunil04@gmail.com     |
+|   11 | Abhishek Chauhan  | Ahmednagar  |   39 |       1150000 | Accountant          | abhichauhan24@gmail.com    |
+|   12 | Manish Chauhan    | Bangalore   |   41 |       1300000 | Software Engineer   | chauhan11manish@gmail.com  |
+|   13 | Rupesh Waghela    | Gandhinagar |   41 |       2000000 | Businessman         | waghelarupesh08@gmail.com  |
+|   14 | Mohit Yadav       | Raipur      |   41 |        400000 | Plumber             | mohity64@gmail.com         |
+|   15 | Rohan Singh       | Amravati    |   40 |        600000 | Teacher             | singhrohan44@gmail.com     |
+|   16 | Binod             | Patna       |   42 |        300000 | Driver              | binod31@gmail.com          |
+|   17 | Kamlesh           | Bhopal      |   38 |        350000 | Clerk               | kamlesh48@gmail.com        |
+|   18 | Rohit Shetty      | Chennai     |   35 |       2550000 | Photographer        | shettyrohit12@gmail.com    |
+|   19 | Laxman Singh      | Ahmednagar  |   37 |       1100000 | Civil Engineer      | singhlaxman74@gmail.com    |
+|   20 | Arvind Kejriwal   | Delhi       |   38 |        380000 | driver              | kjarvind11@gmail.com       |
++------+-------------------+-------------+------+---------------+---------------------+----------------------------+
+20 rows in set (0.00 sec)
+
+mysql> update tblParents set email_id="NA";
+Query OK, 20 rows affected (0.00 sec)
+Rows matched: 20  Changed: 20  Warnings: 0
+
+mysql> select * from tblParents;
++------+-------------------+-------------+------+---------------+---------------------+----------+
+| p_id | p_name            | city        | age  | annual_income | occupation          | email_id |
++------+-------------------+-------------+------+---------------+---------------------+----------+
+|    1 | Harsh Singh       | Mumbai      |   42 |       1200000 | Software Engineer   | NA       |
+|    2 | Ashutosh Singh    | Pune        |   47 |       1000000 | Doctor              | NA       |
+|    3 |  Sabi Ahsan       | Lucknow     |   50 |       4000000 | Businessman         | NA       |
+|    4 |  Suyash Mishra    | Bangalore   |   40 |      14000000 | Mechanical Engineer | NA       |
+|    5 |  Prathamesh Yadav | Varansi     |   45 |      11000000 | Software Developer  | NA       |
+|    6 |  Akhilesh Yadav   | Bhopal      |   45 |        600000 | Teacher             | NA       |
+|    7 | Shivam Jaiswar    | Jaipur      |   38 |        800000 | Doctor              | NA       |
+|    8 | Priyanshu Singh   | Mumbai      |   36 |       1550000 | Manager             | NA       |
+|    9 | Aishwarya Yadav   | Mumbai      |   36 |       1050000 | Lawyer              | NA       |
+|   10 | Sunil Yadav       | Panjim      |   30 |       1400000 | Trainer             | NA       |
+|   11 | Abhishek Chauhan  | Ahmednagar  |   39 |       1150000 | Accountant          | NA       |
+|   12 | Manish Chauhan    | Bangalore   |   41 |       1300000 | Software Engineer   | NA       |
+|   13 | Rupesh Waghela    | Gandhinagar |   41 |       2000000 | Businessman         | NA       |
+|   14 | Mohit Yadav       | Raipur      |   41 |        400000 | Plumber             | NA       |
+|   15 | Rohan Singh       | Amravati    |   40 |        600000 | Teacher             | NA       |
+|   16 | Binod             | Patna       |   42 |        300000 | Driver              | NA       |
+|   17 | Kamlesh           | Bhopal      |   38 |        350000 | Clerk               | NA       |
+|   18 | Rohit Shetty      | Chennai     |   35 |       2550000 | Photographer        | NA       |
+|   19 | Laxman Singh      | Ahmednagar  |   37 |       1100000 | Civil Engineer      | NA       |
+|   20 | Arvind Kejriwal   | Delhi       |   38 |        380000 | driver              | NA       |
++------+-------------------+-------------+------+---------------+---------------------+----------+
+20 rows in set (0.00 sec)
+
+mysql> select count(*) from tblParents where annual_income > 600000;
++----------+
+| count(*) |
++----------+
+|       14 |
++----------+
+1 row in set (0.00 sec)
+
+mysql> select * from tblParents where city in('Ahmednagar', 'Delhi', 'Mumbai', 'Chennai', 'Bangalore');
++------+------------------+------------+------+---------------+---------------------+----------+
+| p_id | p_name           | city       | age  | annual_income | occupation          | email_id |
++------+------------------+------------+------+---------------+---------------------+----------+
+|    1 | Harsh Singh      | Mumbai     |   42 |       1200000 | Software Engineer   | NA       |
+|    4 |  Suyash Mishra   | Bangalore  |   40 |      14000000 | Mechanical Engineer | NA       |
+|    8 | Priyanshu Singh  | Mumbai     |   36 |       1550000 | Manager             | NA       |
+|    9 | Aishwarya Yadav  | Mumbai     |   36 |       1050000 | Lawyer              | NA       |
+|   11 | Abhishek Chauhan | Ahmednagar |   39 |       1150000 | Accountant          | NA       |
+|   12 | Manish Chauhan   | Bangalore  |   41 |       1300000 | Software Engineer   | NA       |
+|   18 | Rohit Shetty     | Chennai    |   35 |       2550000 | Photographer        | NA       |
+|   19 | Laxman Singh     | Ahmednagar |   37 |       1100000 | Civil Engineer      | NA       |
+|   20 | Arvind Kejriwal  | Delhi      |   38 |        380000 | driver              | NA       |
++------+------------------+------------+------+---------------+---------------------+----------+
+9 rows in set (0.00 sec)
+
+
+mysql> select * from tblParents where annual_income < 500000;
++------+------------------+--------+------+---------------+------------+----------+
+| p_id | p_name           | city   | age  | annual_income | occupation | email_id |
++------+------------------+--------+------+---------------+------------+----------+
+|   14 | Mohit Yadav      | Raipur |   41 |        400000 | Plumber    | NA       |
+|   16 | Binod            | Patna  |   42 |        300000 | Driver     | NA       |
+|   17 | Kamlesh          | Bhopal |   38 |        350000 | Clerk      | NA       |
+|   20 | Arvind Kejriwal  | Delhi  |   38 |        380000 | driver     | NA       |
++------+------------------+--------+------+---------------+------------+----------+
+4 rows in set (0.00 sec)
+
